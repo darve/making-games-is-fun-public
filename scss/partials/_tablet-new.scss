@@ -1,0 +1,33 @@
+/**
+ * Tablet styles
+ */
+
+#narrative-wrapper {
+
+    .narrative-showing & {
+        padding: 60px;
+    }
+
+    #narrative-content {
+        display: block;
+        max-width: 830px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 44px;
+        line-height: 44px;
+        margin: 0 0 22px 0;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0 0 22px 0;
+    }
+}
+
+.static {
+    padding: 0 40px 40px;
+}

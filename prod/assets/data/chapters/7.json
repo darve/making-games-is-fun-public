@@ -1,0 +1,266 @@
+{
+  "number": 7,
+  "title": "GamesCom, Showing Off Our Big Chinned Baby",
+  "pages": [
+    {
+      "order": 1,
+      "title": "GamesCom, Showing Off Our Big Chinned Baby",
+      "type": "chapter-intro-horizontal",
+      "photos": [
+        "chapter-7-page-1-1.jpg",
+        "chapter-7-page-1-2.jpg",
+        "chapter-7-page-1-3.jpg",
+        "chapter-7-page-1-4.jpg",
+        "chapter-7-page-1-5.jpg"
+      ],
+      "content": [
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "GamesCom, Showing Off Our Big Chinned Baby"
+            },
+            {
+              "type": "paragraph",
+              "value": "All of Hello Games stood surrounding the booth, positions taken up, ready for the first wave of attendees to careen around the corner and sploosh their inquisitive faces into the screens."
+            },
+            {
+              "type": "paragraph",
+              "value": "What began as a trickle soon escalated to a full-scale typhoon. By the early afternoon, the humidity was ridiculous, made all the more oppressive by the swarming mass of liquid human bearing down on us."
+            },
+            {
+              "type": "paragraph",
+              "value": "The attendees were the sea, and the booth was a ship; everyone would have to pull together to keep this baby afloat. There would be time for the odd sea shanty and some tomfoolery - perhaps even some shenanigans and the occasional jape. This would be the hardest week, but it would be an experience that brought everyone closer together."
+            }
+          ]
+        }
+      ],
+      "template": null
+    },
+    {
+      "order": 2,
+      "title": "",
+      "type": "split-grid-four",
+      "photos": [
+        "chapter-7-page-2-1.jpg",
+        "chapter-7-page-2-2.jpg",
+        "chapter-7-page-2-3.jpg",
+        "chapter-7-page-2-4.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 3,
+      "title": "",
+      "type": "split-grid-twelve",
+      "photos": [
+        "chapter-7-page-3-1.jpg",
+        "chapter-7-page-3-2.jpg",
+        "chapter-7-page-3-3.jpg",
+        "chapter-7-page-3-4.jpg",
+        "chapter-7-page-3-5.jpg",
+        "chapter-7-page-3-6.jpg",
+        "chapter-7-page-3-7.jpg",
+        "chapter-7-page-3-8.jpg",
+        "chapter-7-page-3-9.jpg",
+        "chapter-7-page-3-10.jpg",
+        "chapter-7-page-3-11.jpg",
+        "chapter-7-page-3-12.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 4,
+      "title": "",
+      "type": "full",
+      "photos": [
+        "chapter-7-page-4-1.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 5,
+      "title": "",
+      "type": "split-five-vertical",
+      "photos": [
+        "chapter-7-page-5-1.jpg",
+        "chapter-7-page-5-2.jpg",
+        "chapter-7-page-5-3.jpg",
+        "chapter-7-page-5-4.jpg",
+        "chapter-7-page-5-5.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 6,
+      "title": "",
+      "type": "split-grid-four",
+      "photos": [
+        "chapter-7-page-6-1.jpg",
+        "chapter-7-page-6-2.jpg",
+        "chapter-7-page-6-3.jpg",
+        "chapter-7-page-6-4.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 7,
+      "title": "",
+      "type": "split-grid-four",
+      "photos": [
+        "chapter-7-page-7-1.jpg",
+        "chapter-7-page-7-2.jpg",
+        "chapter-7-page-7-3.jpg",
+        "chapter-7-page-7-4.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 8,
+      "title": "",
+      "type": "full",
+      "photos": [
+        "chapter-7-page-8-1.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 9,
+      "title": "",
+      "type": "full",
+      "photos": [
+        "chapter-7-page-9-1.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 10,
+      "title": " ",
+      "type": "full",
+      "photos": [
+        "chapter-7-page-10-1.jpg"
+      ],
+      "content": [
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "paragraph",
+              "value": "The ring of consoles forming the Hello Games booth created a private area within, unseen to the public."
+            },
+            {
+              "type": "paragraph",
+              "value": "This shot was taken moments after they had finished six hours of demoing and interviews, seemingly still full of pep and vigour, before making their way to the private area to fully collapse with a plastic plate full of carbohydrates."
+            }
+          ]
+        }
+      ],
+      "template": null
+    },
+    {
+      "order": 11,
+      "title": "",
+      "type": "split-grid-four",
+      "photos": [
+        "chapter-7-page-11-1.jpg",
+        "chapter-7-page-11-2.jpg",
+        "chapter-7-page-11-3.jpg",
+        "chapter-7-page-11-4.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 12,
+      "title": "",
+      "type": "split-grid-four",
+      "photos": [
+        "chapter-7-page-12-1.jpg",
+        "chapter-7-page-12-2.jpg",
+        "chapter-7-page-12-3.jpg",
+        "chapter-7-page-12-4.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 13,
+      "title": " ",
+      "type": "full",
+      "photos": [
+        "chapter-7-page-13-1.jpg"
+      ],
+      "content": [
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "paragraph",
+              "value": "This recruiter for EA approached Sean asking if she could have one of the cardboard cutouts of Joe Danger; she was a big fan of the series and said that she could put in a good word for him and get him a job at EA."
+            },
+            {
+              "type": "paragraph",
+              "value": "This photo is of her reaction when Sean explained that he in fact used to work for EA but decided to leave and start Hello Games."
+            }
+          ]
+        }
+      ],
+      "template": null
+    },
+    {
+      "order": 14,
+      "title": "",
+      "type": "split-grid-four",
+      "photos": [
+        "chapter-7-page-14-1.jpg",
+        "chapter-7-page-14-2.jpg",
+        "chapter-7-page-14-3.jpg",
+        "chapter-7-page-14-4.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 15,
+      "title": "",
+      "type": "split-grid-four",
+      "photos": [
+        "chapter-7-page-15-1.jpg",
+        "chapter-7-page-15-2.jpg",
+        "chapter-7-page-15-3.jpg",
+        "chapter-7-page-15-4.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 16,
+      "title": " ",
+      "type": "full",
+      "photos": [
+        "chapter-7-page-16-1.jpg"
+      ],
+      "content": [
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "paragraph",
+              "value": "Amongst the throng of the GamesCom show floor, Sean stands, evaluating attendees' reactions to and understanding of the game."
+            }
+          ]
+        }
+      ],
+      "template": null
+    }
+  ]
+}

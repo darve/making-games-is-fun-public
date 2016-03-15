@@ -1,0 +1,8 @@
+<div class="page-split-grid-twelve page">
+    <a class="section order-{{ $index+1 }}" ng-repeat="photo in photos" href="/#/chapter/{{chapter}}/{{page}}/{{$index+1}}" style="background: transparent url('{{ assetUrl + photo }}') center center no-repeat; background-size: cover;" data-full="{{ assetUrl + photo }}" thumbnail></a>
+</div>
+<div class="content">
+    <div ng-repeat="item in content">
+        <div ng-repeat="(key, value) in item.content" bbh-content="{{ key }}"><span>{{ value }}</span></div>
+    </div>
+</div>

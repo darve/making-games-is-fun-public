@@ -1,0 +1,219 @@
+{
+  "number": 2,
+  "title": "Meet the team",
+  "pages": [
+    {
+      "order": 1,
+      "title": "Meet The Team",
+      "type": "chapter-intro-horizontal",
+      "photos": [
+        "chapter-2-page-1-1.jpg",
+        "chapter-2-page-1-2.jpg",
+        "chapter-2-page-1-3.jpg",
+        "chapter-2-page-1-4.jpg"
+      ],
+      "content": [
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "Meet The Team"
+            },
+            {
+              "type": "paragraph",
+              "value": "Sean, David, Grant, Ryan: the four most blokey names I've ever seen in a straight line. I bet you're imagining a collection of gargantuan, angular, five o' clock shadowed, dangerous berks who you might find kicking some poor long haired goth's bonce off in a pub car park."
+            },
+            {
+              "type": "paragraph",
+              "value": "Far from being hulking great 'lads' you might encounter in a sports bar, they are, in fact, four lovely humans who decided to leave secure jobs at major videogame developer studios and start up their own company; Hello Games."
+            },
+            {
+              "type": "paragraph",
+              "value": "Following the success of Joe Danger, these four lovely people were joined by six further, equally lovely, people. Now remember, this is a photo documentary about the people who work at Hello Games and not their CVs, so prepare yourself to be introduced to actual human beings with names."
+            }
+          ]
+        }
+      ],
+      "template": null
+    },
+    {
+      "order": 2,
+      "title": " ",
+      "type": "split-five-vertical",
+      "photos": [
+        "chapter-2-page-2-1.jpg",
+        "chapter-2-page-2-2.jpg",
+        "chapter-2-page-2-3.jpg",
+        "chapter-2-page-2-4.jpg",
+        "chapter-2-page-2-5.jpg"
+      ],
+      "content": [
+        {
+          "type": null
+        },
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "Sean Murray"
+            },
+            {
+              "type": "paragraph",
+              "value": "Sean Murray; the top dog; the big, large cheese; the M Bison of Hello Games. Sean founded Hello Games along with Dave, Grant and Ryan. The company started life as these four in a single room, pouring everything they had - physically, mentally and financially – into the first iteration of Joe Danger, which landed on PS3 in 2010."
+            },
+            {
+              "type": "paragraph",
+              "value": "Impossibly friendly, pleasantly laid back yet incredibly hard working, Sean welcomed me from the start. His open and honest nature has allowed this story to be told. So let's say thanks to Sean. Thanks Sean! Genuinely self-deprecating, despite having his head well and truly screwed on.  Amusingly bashful in video interviews, which he is ritually mocked for by the rest of the team. See if you can spot the classic Sean Murray mannerisms throughout the book: the turned down head, the nervous laugh and the evaluative, concerned nail bite."
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "David Ream"
+            },
+            {
+              "type": "paragraph",
+              "value": "Utterly unstoppable coding machine David Ream is a proper dream. Another founding human, Reamster (as nobody calls him) is the absolute admiral of coding on the ship Hello Games and possibly the funniest of the group. Thoroughly nice and beautifully silly, D-Ream is a bit like a big, floating dad figure in the office, moving from desk to desk like a benevolent, bearded beauty. Has surges of energy like a faulty plug socket and can be heard suddenly blurting out victorious cheers at the top of his lungs when he fixes a bit of code."
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "Grant Duncan"
+            },
+            {
+              "type": "paragraph",
+              "value": "The third founder on our list and the most artiest of them all, Grant is the one that does the most art. Loads of it, in fact. I've never seen that much art in one place."
+            },
+            {
+              "type": "paragraph",
+              "value": "Has that quiet, studious patience you might observe in an artist. Probably the wittiest. Waits for his moment to remark in a conversation and absolutely slays it. Incredible, dry sense of humour. Although he was rarely chuffed about having his photo taken, he always played ball. Good lad, Grant."
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "Ryan Doyle"
+            },
+            {
+              "type": "paragraph",
+              "value": "As one of the most effective camera dodging members of the team, this is the best portrait of Ryan that was captured. The last of the four founding members of Hello Games."
+            },
+            {
+              "type": "paragraph",
+              "value": "In work he is a very sensible, intelligent, supremely level headed and hard working dude. He has the kind of composure and focus I can only OH LOOK A PIGEON. When the party starts, however, he turns into an absolute monster. A nice monster, that is. One with nice tattoos. "
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "Daniel Gray"
+            },
+            {
+              "type": "paragraph",
+              "value": "The producer at Hello Games, 'Handsome Dan' attributes his success to going to the gym at lunchtime, using nice smelling things on his person and spending rather a lot of time on his hair. A welcoming, approachable sort with a delightful, booming Manchester accent. Has a unique (read - bizarre) way of thinking sometimes and will come out with sentences you never expected to hear of a Thursday afternoon."
+            }
+          ]
+        }
+      ],
+      "template": null
+    },
+    {
+      "order": 3,
+      "title": " ",
+      "type": "split-five-vertical",
+      "photos": [
+        "chapter-2-page-3-1.jpg",
+        "chapter-2-page-3-2.jpg",
+        "chapter-2-page-3-3.jpg",
+        "chapter-2-page-3-4.jpg",
+        "chapter-2-page-3-5.jpg"
+      ],
+      "content": [
+        {
+          "type": null
+        },
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "Hazel McKendrick"
+            },
+            {
+              "type": "paragraph",
+              "value": "Quiet but not shy, Hello Games' resident veggie Hazel is a tiny, Scottish code-splosion. Brilliantly intelligent with even dryer wit than Grant. Hazel is another one of Hello Games' camera dodgers and will either purposefully move completely out of shot or sometimes wholesale leave the room if she spots me taking a photo of her. As you can see in this photo, though, she is not quite as adept as escaping the lens as 'The Ghost' Ryan Doyle."
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "Alex Dixon"
+            },
+            {
+              "type": "paragraph",
+              "value": "Another of Hello Games' powerful code beasts. Alex can often be found adding screamo to the office Spotify playlist as well a whole host of other obscure titles (basically cool people music I have no idea about). Roaringly confident and funny, Alex is one of the more prominent voices in the office. He is also the brain behind the compelling, multinational sport of HATBALL (more on that later)."
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "Jacob Golding"
+            },
+            {
+              "type": "paragraph",
+              "value": "Jake is a lithe, bendy art human and Street Fighter enthusiast. Can often be found sketching deeply unflattering portraits of the rest of the team for motivational purposes. Usually found on nights out with Alex, listening to cool bands like a cool person. I will never tire of hearing him say 'Makoto' or 'Flying Lotus' in his Welsh valleys accent. "
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "Aaron Andrews"
+            },
+            {
+              "type": "paragraph",
+              "value": "Proud owner of the second afro in the Hello Games office, Aaron is another one of them art dudes. A lovely bloke, total Valve obsessive and is basically in love with Gabe Newell. Also plays an unfathomable amount of DayZ. The subject (victim) of more Jake sketches than any other member of the team. "
+            }
+          ]
+        },
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "Gareth Bourn"
+            },
+            {
+              "type": "paragraph",
+              "value": "Adorned with an impressive assortment of tattoos and always wearing a tshirt bearing a unique design or detailing a band I've never heard of. Gareth is in charge of doing yet more art for Hello Games. Loves his Final Fantasy stuff to absolute death. At lunchtime he can be found hastily stuffing a sandwich down his gob whilst playing League of Legends. Gareth is also the guy I go to when I want someone to wear a dressing gown and hold a strip light for a photo that serves no immediately apparent purpose."
+            }
+          ]
+        }
+      ],
+      "template": null
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en" xmlns:og="http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <title>Making Games Is Fun</title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <meta property="og:url" content="http://makinggamesisfun.co.uk" />
+    <meta property="og:title" content="Making Games Is Fun" />
+    <meta property="og:site_name" content="Making Games Is fun"/>
+    <meta property="og:description" content="Ten people, a million lines of code, one cartoon man on a motorbike: the story of Hello Games." />
+    <meta property="og:image" content="http://darve-bbh.s3.amazonaws.com/og-600x600.jpg" />
+    <meta property="fb:app_id" content="1377643919232975" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_GB" />
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+
+    <link rel="shortcut icon" href="http://darve-bbh.s3.amazonaws.com/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://darve-bbh.s3.amazonaws.com/apple-touch-icon.png" />
+    <link href="http://darve-bbh.s3.amazonaws.com/apple-touch-icon.png" rel="apple-touch-icon-precomposed" sizes="144x144" type="image/png"/>
+    <link href="http://darve-bbh.s3.amazonaws.com/apple-touch-icon.png" rel="apple-touch-icon-precomposed" sizes="114x114" type="image/png"/>
+    <link href="http://darve-bbh.s3.amazonaws.com/apple-touch-icon.png" rel="apple-touch-icon-precomposed" sizes="72x72" type="image/png"/>
+    <link href="http://darve-bbh.s3.amazonaws.com/apple-touch-icon.png" rel="apple-touch-icon-precomposed" type="image/png"/>
+
+    <script type="text/javascript" src="//use.typekit.net/fwf4ype.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <link rel="stylesheet" href="assets/css/app.css"/>
+
+</head>
+<body ng-app="BBHApp" ng-controller="AppController">
+    
+    <!-- 
+        Narrative 
+    -->
+    <div id="narrative-wrapper" ng-controller="NarrativeController" ng-class="{ showing: showing }" ng-show="route == 'chapter'">
+        <div id="narrative-content"></div>
+        <div class="close-button-wrapper">
+            <div id="narrative-close" class="close-button">
+                <a ng-click="close()"><span class="icon-cross"></span></a>
+            </div>
+        </div>
+    </div>
+    
+    <!--
+        Individual Photos
+    -->
+    <div id="photo-wrapper" ng-controller="PhotoController" ng-class="{ show: showing }" ng-show="route == 'chapter'">
+        <!-- <h3 class="photo-title f-orgovan" ng-show="title !== ''">{{ title }}</h3> -->
+        <div id="photo" style="{{ photo }}" ng-class="{ loading: loading, show: showing }"></div>
+        <div class="close-button-wrapper">
+            <div id="photo-close" class="close-button">
+                <a ng-click="close()"><span class="icon-cross"></span></a>
+            </div>
+        </div>
+        <div class="loader show"></div>
+    </div>
+
+    <!--
+        UI Elements
+    -->
+    <a id="story-indicator" ng-click="scrollToNarrative()" ng-class="{ show: narrativeVisible }" ng-show="route == 'chapter'" class="flash"><span class="icon-book"></span></a>
+    <a id="hamburger" ng-click="showMenu()"><span class="icon-list"></span></a>
+
+    <!--
+        Home templates
+    -->    
+    <div id="home" class="section fullscreen" ng-controller="HomeController" ng-show="route == 'home'">
+
+        <div class="content">
+            <img src="/assets/img/logo-600-trans.png" class="mgif" />
+            <h1 class="f-orgovan mobile-hidden"><span class="making">Making</span><span class="games">games is</span><span class="fun text on">fun</span><span class="stressful text">stressful</span><span class="exciting text">exciting</span></h1>
+
+            <div class="intro">
+                <p>A surprisingly honest and open look at a game dev studio, looking at the people who work there. The absolute first of its kind. A photo documentary taken from the inside.</p>
+
+                <p>No PR, no barriers, lots of silliness.</p>
+
+                <a ng-click="jump(1)" class="cta f-orgovan mobile-hidden">Start reading</a>
+                
+                <p>
+                    <a href="https://twitter.com/share?url=http://bit.ly/1DXPL49&text=Ten people, a million lines of code, one cartoon man on a motorbike: the story of Hello Games #MGIF" class="twitter-share-button"></a>
+                    <div class="fb-like" data-href="http://makinggamesisfun.co.uk" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+                </p>
+                <p class="credit">Made by <a href="/#/about">Gary &amp; Dave</a>.</p>
+            </div>
+        </div>
+
+        <div class="photo fun on"></div>
+        <div class="photo stressful"></div>
+        <div class="photo exciting"></div>
+    </div>
+
+    <!--
+        About page
+    -->
+    <div id="about" class="static" ng-show="route == 'about'">
+        <div class="content">
+
+            <h1 class="f-orgovan">About Us</h1>
+
+            <div class="columns">
+
+                <div class="full-col">
+                    <p>Making Games Is Fun is an independently created, ongoing, online photodocumentary series looking at people who work in, or make their living around, the games industry. The images and words are made by photographer and word-man <a href="https://twitter.com/garydooton" target="_blank">GaryDooton</a>. These images and words are then brought to life and made available to you by the web development and coding prowess of <a href="https://twitter.com/davehurricane" target="_blank">David Woollard</a>. Without David, it would be like writing words and printing photos without paper, which would be very stupid indeed.</p>
+                </div>
+
+            </div>
+
+            <img src="/assets/img/lads-2.jpg" class="photo" />
+
+            <div class="columns">
+
+                <div class="half-col">
+
+                    <h2 class="f-orgovan">Gary</h2>
+                    <p><a href="https://twitter.com/garydooton" target="_blank">GaryDooton</a>, or Gareth Dutton as he's known to his mum and dad, is a freelance photo  grapher and word speller. He has nice hair. He sometimes writes for the videogame writing and podcasting people known as Midnight Resistance. His hobbies are all for children and are as follows:</p>
+                    <ul>
+                        <li>Videogames</li>
+                        <li>Pro Wrestling</li>
+                        <li>Staring out of the window</li>
+                    </ul>
+                    <p>He photographs various human beings' faces in different ways for different reasons in return for cash. Preposterously, he is a father to a human woman (girl).</p>
+                </div>
+                
+                <div class="half-col">
+                    <h2 class="f-orgovan">Dave</h2>
+                    <p><a href="http://twitter.com/davehurricane" target="_blank">David Woollard</a> is a frighteningly adept code serpent. It really is scary how good he is at telling computers what to do; I'm talking dry throated, shallow-breath, wide-eyed terror. David is also a creature of the freelance world and he and Gary can be found colluding in dimly lit, slightly annoying trendy pubs like two scheming walruses.</p>
+                    <p>David's hobbies are as follows:</p>
+                    <ul>
+                        <li>Playing deadly guitar licks like some sort of slightly melted Josh Homme</li>
+                        <li>Getting drunk on boats</li>
+                        <li>Not going to bed at reasonable times</li>
+                    </ul>
+                </div>
+
+                <div class="clear"></div>
+                <hr/>
+
+                <div class="full-col">
+                    <p>By combining their powers, their brilliant quest is to create documentary material about the videogames industry and its surrounding culture in a way previously unseen, and to deliver it to you in a delightfully slick, dangerously pretty fashion.</p>
+                    <p>I mean honestly, this stuff practically pushes itself into your ears, eyes and throat so you barely have to lift a muscle in your stupid, stupid faces.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+        Support page
+    -->
+    <div id="support-us" class="static" ng-show="route == 'support-us'">
+        <div class="content">
+            <h1 class="f-orgovan">Support us.</h1>
+
+            <img src="/assets/img/lads.jpg" class="photo" />
+
+            <div class="columns">
+                <p>Out of all the things Dave and I do in our ridiculous little lives, making our own stuff, on our own terms, by our own rules, is what we love doing the most. We get absolute creative freedom and get to make whatever we want, however we want; nobody to bully us or tell us they think what we're doing is total garbage and that our faces are ugly and huge.</p>
+
+                <p>What does that mean for the reader / picture looker / voice listener, also known as you? Well, it means that what I've written, what I've photographed and what I've recorded is what I think and what I've experienced. When it comes to documenting the games industry in various ways, that's a rare asset; There's no old school, Machiavellian PR git prodding and bullying me with his nasty little talons.</p>
+
+                <p>All this freedom comes with a price of course, or a lack of one; we have no payroll department. I've tried billing the three year old but she only pays me in plastic coins from her toy cash register; so far I've made "five monies". Unfortunately, she keeps making me use them to buy teddies (and sometimes her own snot), resulting in "no monies left". It's a thoroughly demoralising experience. </p>
+
+                <p>The best thing about what were making is it's available to everyone, no paywall means you can all enjoy it. The problem is, sometimes the money runs out, and I have to cut back ideas in terms of ambition and scope, content, whatever. </p>
+
+                <p>One thing I can assure you is that I'll forever be making these photodocumentaries, and I plan to increase the scale, scope and sophistication as I continue, provided the funds are available, so don't think of this as a "this is free but I can't do any more unless you support me" – I WILL continue to create these photodocs either way, and they will continue to be free.</p>
+
+                <p>What I'm saying is, don't consider this a guilt trip, like something your mum would say ("of course it's free, but if you LOVE me enough to give a MEASLY pound coin, then maybe you'd be a great person") because if you need your money, keep hold of it; don't give it to some idiot on The Internet.</p>
+
+                <p>Your support simply helps us to think bigger. I'll always find something related to gaming to document, regardless of budget. I'm just happy that you're interested in my work in the first place, because that means it has value and was worth doing.</p>
+
+                <p>Heartfelt thanks to all of you. Keep this site bookmarked and follow us on twitter because I have more stuff in the pipeline which will show up here, all free.</p>
+
+                <p>Cheers humans,</p>
+
+                <p>Love from <a href="http://twitter.com/garydooton">GaryDooton</a> and <a href="http://twitter.com/davehurricane">DaveHurricane</a>.</p>            
+            </div>
+
+        </div>
+    </div>
+
+    <!--
+        Chapter content
+    -->
+    <div id="page-wrapper" ng-controller="UIController" ng-show="route == 'chapter'">
+
+         <div id="transition-wrapper">
+             <div class="transition in"></div>
+             <div class="transition out"></div>
+         </div>
+
+        <div class="loader" ng-class="{ show: loading }"></div>
+
+        <button class="navigator navigate-left left icon-arrow-left" ng-click="navigateLeft()" ng-class="{ hidden: (chapter == 1 && page == 1) }"></button>
+        <button class="navigator navigate-right icon-arrow-right" ng-click="navigateRight()" ng-class="{ hidden: (chapter == 10 && page == 1) }"></button>
+    </div>
+    
+    <script src="assets/vendor/js/jquery-v1.10.2.min.js"></script>
+    <script src="assets/vendor/js/angular/angular.min.js"></script>
+    <script src="assets/vendor/js/angular/angular-route.min.js"></script>
+    <script src="assets/vendor/js/tween.js"></script>
+
+    <script src="assets/scripts/app.min.js"></script>
+
+    <script src="assets/views/views.min.js"></script>
+
+    <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=1377643919232975";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-10178169-14', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+
+</body>
+</html>

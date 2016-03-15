@@ -1,0 +1,44 @@
+{
+    "chapters": [
+        {
+            "number": 1,
+            "title": "Making Games Is Fun"
+        },
+        {
+            "number": 2,
+            "title": "Meet the team"
+        },
+        {
+            "number": 3,
+            "title": "A Dev's Habitat"
+        },
+        {
+            "number": 4,
+            "title": "Knuckling Down"
+        },
+        {
+            "number": 5,
+            "title": "Bloomin Journos"
+        },
+        {
+            "number": 6,
+            "title": "GamesCom, The Calm Before The Storm"
+        },
+        {
+            "number": 7,
+            "title": "GamesCom, Showing Off Our Big Chinned Baby"
+        },
+        {
+            "number": 8,
+            "title": "GamesCom, It's Not All Hard Work"
+        },
+        {
+            "number": 9,
+            "title": "The Party's Over"
+        },
+        {
+            "number": 10,
+            "title": "Thanks For Reading"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+/**
+ * Firebase user schema
+ */
+{
+    "BBHUsers": {
+        "simplelogin:1": {
+            "name": "David Woollard",
+            "email": "dave@darve.co.uk",
+            "purchased": true
+        }
+    }
+}

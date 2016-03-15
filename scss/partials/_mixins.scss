@@ -1,0 +1,16 @@
+
+/*  Global styles
+/* ======================================= */
+
+@mixin cta($color: $bbh-red-light) {
+    @include border-radius( 5px );
+    @include text-shadow( none );
+    @include box-shadow( 3px 3px 0px $bbh-red-dark );
+    @include transition( all .1s ease-out );
+    position: relative;
+    font-size: 32px;
+    color: white;
+    background: $bbh-red-light;
+    padding: 8px;
+    text-decoration: none;
+}

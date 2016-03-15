@@ -1,0 +1,21 @@
+{
+  "name": "interlolz-server",
+  "version": "0.0.1",
+  "author": "Darve <dave@darve.co.uk>",
+  "description": "",
+  "keywords": [
+    "piss",
+    "super-nintendo",
+    "hot-raisins"
+  ],
+  "dependencies": {
+    "mongoose": "3.6.x",
+    "express": "3.2.x",
+    "knox": "~0.8.9",
+    "q": "~1.0.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}

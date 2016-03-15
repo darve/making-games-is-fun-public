@@ -1,0 +1,21 @@
+<div id="page-wrapper" ng-controller="UIController">
+
+    <!-- 
+        Used to wrap different pages of content, allowing for smooth transitions between pages.
+    -->
+     <div id="transition-wrapper">
+         <div class="transition in"></div>
+         <div class="transition out"></div>
+     </div>
+
+    <div class="loader" ng-class="{ show: loading }"></div>
+
+    <!-- 
+        Navigation 
+    -->
+    <button class="navigator navigate-left left icon-arrow-left" ng-click="navigateLeft()" ng-class="{ hidden: (chapter === 1 && page === 1) }"></button>
+    <button class="navigator navigate-right icon-arrow-right" ng-click="navigateRight()"></button>
+
+    <!-- <button class="navigator chapter-chooser icon-directions" ng-click="showNavigatorMenu()">Chapter Chooser</button> -->
+    
+</div>

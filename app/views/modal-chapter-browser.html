@@ -1,0 +1,11 @@
+<div class="modal-content" id="chapter-chooser">
+    <h2 class="f-orgovan">Choose a chapter</h2>
+    <ul id="chapter-list">
+        <li ng-repeat="chapter in data.chapters">
+            <a ng-click="jump(chapter.number)">
+                <img ng-src="{{ assetUrl }}chapter-chooser-{{chapter.number}}.jpg" class="img">
+                <span class="title f-orgovan">{{ chapter.title }}</span>
+            </a>
+        </li>
+    </ul>
+</div>

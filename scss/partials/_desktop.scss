@@ -1,0 +1,279 @@
+
+/* 	Desktop styles
+/* ======================================= */
+
+.desktop-hidden {
+    display: none;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 8px 0;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 12px 0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 0 12px 0;
+    font-weight: 400;
+    font-family: "open-sans", sans-serif;
+}
+
+#hamburger {
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+
+    &:hover, &:focus, &:active {
+        bottom: 22px;
+        right: 22px;
+    }
+}
+
+#story-indicator {
+    display: none;
+}
+
+#home {
+
+    .content {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 32%;
+        min-width: 460px;
+        padding: 32px;
+        background: $bbh-red-light;
+        z-index: 10;
+        border-right: 3px solid $bbh-red-dark;
+        overflow: auto;
+
+        p {
+            @include text-shadow( 1px 1px 0px $bbh-red-dark );
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 100px;
+        text-align: left;
+        position: relative;
+        padding-bottom: 103px;
+        @include text-shadow( 3px 3px 0px $bbh-red-dark );
+        margin: 0 0 26px 0;
+
+        span {
+            display: block;
+        }
+
+        span.making {
+            font-size: 111px;
+        }
+
+        span.games {
+            font-size: 90px;
+        }
+
+        span.fun {
+            width: 333px;
+        }
+
+        span.stressful {
+            width: 390px;
+            font-size: 79px;
+            padding-bottom: 17px;
+        }
+
+        span.exciting {
+            width: 333px;
+            font-size: 93px;
+            padding-bottom: 5px;
+        }
+
+        span.fun, span.stressful, span.exciting {            
+            position: absolute;
+            left: -1000px;
+            bottom: 0;
+            @include transition( all .4s ease-out );
+
+            &.on {
+                left: 0px;
+            }
+
+            &.off {
+                left: 1000px;
+            }
+        }
+    }
+
+    .cta {
+        @include inline-block;
+        @include border-radius( 5px );
+        @include text-shadow( none );
+        @include box-shadow( 3px 3px 0px $bbh-red-dark );
+        @include transition( all .1s ease-out );
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 24px;
+        background: white;
+        color: $bbh-red-light;
+        padding: 32px;
+        margin: 0 0 40px 0;
+        text-decoration: none;
+        
+        &:hover {
+            left: -3px;
+            top: -3px;
+            @include box-shadow( 6px 6px 0px $bbh-red-dark );
+        }
+    }
+
+    .photo {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0%;
+        width: 68%;
+        height: 100%;
+        z-index: 5;
+        @include transition( all .2s ease-out );
+        @include opacity(0);
+
+        &.fun {
+            background: transparent url('http://darve-bbh.s3.amazonaws.com/chapter-1-page-1-2.jpg') center top no-repeat;
+            background-size: cover;
+        }
+
+        &.stressful {
+            background: transparent url('http://darve-bbh.s3.amazonaws.com/chapter-4-page-1-1.jpg') center top no-repeat;
+            background-size: cover;
+        }
+
+        &.exciting {
+            background: transparent url('http://darve-bbh.s3.amazonaws.com/chapter-7-page-3-5.jpg') center top no-repeat;
+            background-size: cover;
+        }
+
+        &.on {
+            @include opacity(1);
+        }
+    }
+}
+
+/**
+* Narrative stuff
+*/
+
+.photo-showing #page-wrapper {
+    @include opacity(0);
+    pointer-events: none;
+}
+
+.narrative-showing #page-wrapper {
+    width: 75%;
+}
+
+#photo-wrapper, #photo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    @include opacity(0);
+    pointer-events: none;
+
+    &.show {
+        @include opacity(1);
+        pointer-events: auto;
+    }
+}
+
+#photo {
+    width: 100%;
+}
+
+.narrative-showing #photo {
+    width: 75%;
+}
+
+#narrative-wrapper {
+    display: block;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    z-index: 5;
+    top: 0;
+    right: -25%;
+    margin: auto;
+    padding: 28px;
+    background: $bbh-red-light;
+    color: white;
+    overflow: auto;
+    @include transform( translate3d(0,0,0) );
+
+    .narrative-showing & {
+        right: 0%;
+    }
+
+    .close-button-wrapper {
+        display: none;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 32px;
+        font-family: "orgovan-rounded-web", sans-serif;
+        @include text-shadow( 1px 1px 0px $bbh-red-dark );
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        width: 22px;
+        height: 22px;
+        font-size: 13px;
+        font-weight: 600;
+        background: white;
+        color: black;
+        border: none;
+        padding: 0;
+        margin: 0;
+        outline: none;
+        @include border-radius( 100px );
+
+        span {
+            position: relative;
+            top: -1px;
+        }
+    }
+
+    // &.chapter-intro-horizontal {
+    //     left: 0;
+    //     height: 33.3333%;
+    //     top: 66.6666%;
+    //     width: 100%;
+    // }
+
+}

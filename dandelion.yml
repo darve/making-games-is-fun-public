@@ -1,0 +1,9 @@
+adapter: sftp
+host: davidwoollard.com
+username: davidwoollard.com
+password: Typewriter55!
+path: domains/makinggamesisfun.co.uk/html
+
+exclude:
+    - .gitignore
+    - dandelion.yml

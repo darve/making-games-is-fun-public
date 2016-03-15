@@ -1,0 +1,49 @@
+{
+  "number": 10,
+  "title": "Thanks For Reading",
+  "pages": [
+    {
+      "order": 1,
+      "title": "Thanks For Reading",
+      "type": "chapter-intro-horizontal",
+      "photos": [
+        "chapter-10-page-1-1.jpg",
+        "chapter-10-page-1-2.jpg",
+        "chapter-10-page-1-3.jpg",
+        "chapter-10-page-1-4.jpg",
+        "chapter-10-page-1-5.jpg",
+        "chapter-10-page-1-6.jpg",
+        "chapter-10-page-1-7.jpg",
+        "chapter-10-page-1-8.jpg"
+      ],
+      "content": [
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "Thanks For Reading"
+            },
+            {
+              "type": "paragraph",
+              "value": "To everyone who has made it this far, I give you my thanks. You're brilliant. Even if you only ended up reading a bit of it, you're still brilliant (although you won't know that because you're not reading this)."
+            },
+            {
+              "type": "paragraph",
+              "value": "With Making Games Is Fun, we're really trying to do something different: the idea is to create portraits of videogames people that go beyond a single photograph, which is why I decided to create a photodocumentary with writing. We are working on a second series of Making Games Is Fun as you read this, some teaser snippets of which you can see on this page."
+            },
+            {
+              "type": "paragraph",
+              "value": "I've flown the Hello Games nest and have plans to create portraits of indie people and studios involving more elements, the scope of which will increase as support increases."
+            },
+            {
+              "type": "paragraph",
+              "value": "Thanks again for reading and get ready for more Making Games Is Fun."
+            }
+          ]
+        }
+      ],
+      "template": null
+    }
+  ]
+}

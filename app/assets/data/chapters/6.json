@@ -1,0 +1,164 @@
+{
+  "number": 6,
+  "title": "GamesCom, The Calm Before The Storm",
+  "pages": [
+    {
+      "order": 1,
+      "title": "GamesCom, The Calm Before The Storm",
+      "type": "chapter-intro-horizontal",
+      "photos": [
+        "chapter-6-page-1-1.jpg",
+        "chapter-6-page-1-2.jpg",
+        "chapter-6-page-1-3.jpg",
+        "chapter-6-page-1-4.jpg",
+        "chapter-6-page-1-5.jpg",
+        "chapter-6-page-1-6.jpg",
+        "chapter-6-page-1-7.jpg",
+        "chapter-6-page-1-8.jpg"
+      ],
+      "content": [
+        {
+          "type": "story",
+          "content": [
+            {
+              "type": "heading",
+              "value": "GamesCom, The Calm Before The Storm"
+            },
+            {
+              "type": "paragraph",
+              "value": "GamesCom is Europe's biggest annual gaming convention. Despite only starting in 2009, 2011's show saw 275,000 people pass through its doors over the course of the week. It is a massive event and a massive opportunity for any developer to get people excited about their game. All the hard work over the year had been building up to major events like these."
+            },
+            {
+              "type": "paragraph",
+              "value": "It was an important time for Hello Games and everyone had a very long, hard week ahead of them. The nights, of course, would be even more gruelling, what with the ludicrous amounts of alcohol to consume and relentless, 90s German techno to bounce around to."
+            },
+            {
+              "type": "paragraph",
+              "value": "Dave, Grant and Dan landed in Cologne late on Sunday night: they were the set up team, ready to make the stand look all pretty and inviting. Dan was there to point at stuff and 'supervise', Grant was there in artist mode to prettify all in his path and Dave was acting in his official role as unstoppable code monster, setting up the consoles and trying not to panic when things went wrong."
+            },
+            {
+              "type": "paragraph",
+              "value": "There was a palpable sense of excitement as the stand took shape; it was almost time to show the game to the world."
+            }
+          ]
+        }
+      ],
+      "template": null
+    },
+    {
+      "order": 2,
+      "title": "",
+      "type": "split-grid-four",
+      "photos": [
+        "chapter-6-page-2-1.jpg",
+        "chapter-6-page-2-2.jpg",
+        "chapter-6-page-2-3.jpg",
+        "chapter-6-page-2-4.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 3,
+      "title": "",
+      "type": "split-grid-four",
+      "photos": [
+        "chapter-6-page-3-1.jpg",
+        "chapter-6-page-3-2.jpg",
+        "chapter-6-page-3-3.jpg",
+        "chapter-6-page-3-4.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 4,
+      "title": "",
+      "type": "split-vertical",
+      "photos": [
+        "chapter-6-page-4-1.jpg",
+        "chapter-6-page-4-2.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 5,
+      "title": "",
+      "type": "full",
+      "photos": [
+        "chapter-6-page-5-1.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 6,
+      "title": "",
+      "type": "split-five-vertical",
+      "photos": [
+        "chapter-6-page-6-1.jpg",
+        "chapter-6-page-6-2.jpg",
+        "chapter-6-page-6-3.jpg",
+        "chapter-6-page-6-4.jpg",
+        "chapter-6-page-6-5.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 7,
+      "title": "",
+      "type": "full",
+      "photos": [
+        "chapter-6-page-7-1.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 8,
+      "title": "",
+      "type": "split-grid-four",
+      "photos": [
+        "chapter-6-page-8-1.jpg",
+        "chapter-6-page-8-2.jpg",
+        "chapter-6-page-8-3.jpg",
+        "chapter-6-page-8-4.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 9,
+      "title": "",
+      "type": "split-vertical",
+      "photos": [
+        "chapter-6-page-9-1.jpg",
+        "chapter-6-page-9-2.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 10,
+      "title": "",
+      "type": "full",
+      "photos": [
+        "chapter-6-page-10-1.jpg"
+      ],
+      "content": [],
+      "template": null
+    },
+    {
+      "order": 11,
+      "title": "",
+      "type": "full",
+      "photos": [
+        "chapter-6-page-11-1.jpg"
+      ],
+      "content": [],
+      "template": null
+    }
+  ]
+}

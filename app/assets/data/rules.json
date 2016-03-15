@@ -1,0 +1,14 @@
+/**
+ * Firebase rules
+ */
+{
+  "rules": {
+    "BBHUsers": {
+      ".write": true,
+
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid"
+      }
+    }
+  }
+}

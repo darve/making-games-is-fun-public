@@ -1,0 +1,7 @@
+<div class="page-chapter-intro-horizontal page" carousel>
+
+    <h3 class="chapter-title f-orgovan">{{ title }}</h3>
+    <div class="section order-{{ $index+1 }}" ng-repeat="photo in photos" style="background: transparent url('{{ assetUrl + photo }}') center center no-repeat; background-size: cover;" ng-class="{ on: $index == 0 }" data-photo="{{ assetUrl + photo }}"></div>
+
+</div>
+

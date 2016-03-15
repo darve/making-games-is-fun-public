@@ -1,0 +1,39 @@
+{
+    "Chapters": {
+        "number": 1,
+        "title": "Intro",
+        "pages": [
+            {
+                "order": 1,
+                "title": "This is a pretty average title",
+                "type": "full",
+                "photos": ["chapter-1-page-1-1.jpg"],
+                "content": [
+                    {
+                        "type": "story",
+                        "content": [
+                            {
+                                "type": "heading",
+                                "value": "I am the text that appears in this heading"
+                            },
+                            {
+                                "type": "subheading",
+                                "value": "I am the text that appears in this subheading"
+                            },
+                            {
+                                "type": "paragraph",
+                                "value": "I am a lovely great paragraph"
+                            },
+                            {
+                                "type": "image",
+                                "value": "http://www.dave.com/link/to/image.jpg"
+                            }
+                        ]
+                    }
+                ],
+                "template": null
+            }
+        
+        ]
+    }
+}
